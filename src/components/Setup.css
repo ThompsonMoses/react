@@ -1,0 +1,96 @@
+
+.test {
+  background-color: #050517;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+.hotline{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    width: 95%;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.tel a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.setup-box{
+    display: flex;
+    background-color: #0c0c35;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 80%;
+    border: 0.1px solid #adadad;
+    border-radius: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 30%;
+    color: white;
+    height: 400px;
+}
+.imgs{
+    /* padding-top: 20px; */
+    justify-content: center;
+    display: flex;
+}
+.container-img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    height: 74px;
+    width: 100%;
+}
+.label{
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-bottom: 26px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: red;
+}
+input{
+    background-color: #050517;
+    border-radius: 3rem;
+    height: 50px;
+    color: white;
+    /* padding: 0 10px; */
+    padding-left: 40px;
+    margin: 10px auto;
+}
+::placeholder{
+    color: rgba(255, 0, 0, .5);
+    font-size: small;
+    text-transform: uppercase;
+}
+.pass-box, input{
+    width: 100%;
+}
+.login{
+    border-radius: 1.5em;
+    height: 50px;
+    margin: 10px 0;
+    background-color: #100db1;
+    color: white;
+}
+
